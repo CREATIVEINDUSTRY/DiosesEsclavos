@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>De Dioses a Esclavos - Contacto</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/my_framework.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./img/icon.ico">
+</head>
+
+<body>
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+    <a href="portafolio.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" >Portafolio</a>
+    <a href="contacto.html" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contacto</a>
+  </div>
+</nav>
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+<main class="App-main container">
+    <a href="index.html"><h1 class="App-logoContacto"></h1></a>
+    
+
+<div class="xs-w100 ">
+
+<div class="App-textContac xs-w90 md-w65">
+<p>Somos un grupo de arquitectos, diseñadores e ingenieros, que con experiencia, trabajo y pasión, buscamos hacer de tus ideas y sueños una realidad, teniendo siempre presente, la calidad y accesibilidad de nuestros productos.</p>
+<p>Diseñamos & Fabricamos</p>
+<ul><li>Casas</li> <li>Departamentos</li> <li>Oficinas</li> <li>Centros Comerciales.</li></ul>
+
+<div class="banner xs-w100">Más de 100 proyectos &amp; clientes nos respaldan</div>
+<div class="App-port">Contactanos!</div>
+
+<form class="App-form">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Nombre & Apellido" required name="name" pattern="[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Teléfono" required name="phone" pattern=".{10,}"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Asunto" required name="asunto"></p>
+    	<p><textarea class="w3-input w3-padding-16 w3-border" type="text" rows="5" placeholder="Mensaje" required name="mensaje"></textarea></p>
+      <div class="preload  hidden">
+			   <i class="fa  fa-refresh  fa-spin  fa-3x"></i>
+		  </div>
+		  <div class="message  hidden"></div>
+      <p>
+        <input class="App-botonForm xs-w100 w3-button w3-light-grey w3-padding-large" type="submit" value="Enviar">
+        </p>
+    </form>
+</div>
+<div class="App-img xs-w90 md-w50"><img src="./img/muebles_loby.png" alt="" class="App-back xs-w100 "></div>
+</div>
+</main>
+
+<footer class="w3-large" >
+    <a class="w3-hover-opacity" href="mailto:contacto@dediosesaesclavos.com"><i class="fa fa-envelope w3-hover-opacity"></i>contacto@dediosesaesclavos.com</a>
+    <p class="w3-medium">Desarrollado por <a href="http://www.360.ci" target="_blank" class="w3-hover-opacity">Creative Industry</a></p>
+  <!-- End footer -->
+ </footer>
+
+    
+</body>
+
+
+<script>
+// Open and close sidebar
+function openNav() {
+    document.getElementById("mySidebar").style.width = "70%";
+    document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+<script src="./js/form.js"></script>
+</html>            

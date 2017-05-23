@@ -1,0 +1,265 @@
+@font-face {
+    font-family: 'bebas_neuebold';
+    src: url('../fonts/bebasneue_bold-webfont.woff2') format('woff2'),
+         url('bebasneue_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bebas_neuebook';
+    src: url('../fonts/bebasneue_book-webfont.woff2') format('woff2'),
+         url('bebasneue_book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'bebas_neuelight';
+    src: url('../fonts/bebasneue_light-webfont.woff2') format('woff2'),
+         url('bebasneue_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'bebas_neueregular';
+    src: url('../fonts/bebasneue_regular-webfont.woff2') format('woff2'),
+   	 url('../fonts/bebasneue_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'bebas_neuethin';
+    src: url('../fonts/bebasneue_thin-webfont.woff2') format('woff2'),
+         url('bebasneue_thin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body, h1,h2,h3,h4,h5,h6 {
+    font-family: 'bebas_neuebook', sans-serif;
+    background-image: url('../img/cartographer.png');
+    background-repeat: repeat;
+	letter-spacing: .2rem
+}
+
+.w3-row-padding img {margin-bottom: 12px}
+
+.App-nav a {
+	display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 12rem;
+	text-decoration: none;
+	font-size: 1.7rem;
+}
+
+.Cocina {
+	 background-image: url('../img/cocinas/DSC_0637.JPG');
+	 filter: grayscale(100%);
+	 transition: all .3s ease-in-out;
+}
+.Cocina div {
+	position: relative;
+	top: 65%;
+	background-color: rgba(0, 0, 0, .5);
+	width: 100%;
+	color: #FFF;
+	padding: .5rem;
+}
+.Oficinas {
+	 background-image: url('../img/oficina/0175e6a4244cf60283c05296514f18979dd56e5da4.jpg');
+	filter: grayscale(100%);
+	transition: all .3s ease-in-out;
+}
+.Oficinas div {
+	position: relative;
+	top: 65%;
+	background-color: rgba(0, 0, 0, .57);
+	width: 100%;
+	color: #FFF;
+	padding: .5rem;
+}
+.Residencial {
+	 background-image: url('../img/residenciales/01d3c6778bf31a6db4ee1f29af284f0ba0a2c1f4d0.jpg');
+	filter: grayscale(100%);
+	transition: all .3s ease-in-out;
+}
+.Residencial div {
+	position: relative;
+	top: 65%;
+	background-color: rgba(0, 0, 0, .5);
+	width: 100%;
+	color: #FFF;
+	padding: .5rem;
+}
+.Contacto {
+	height: 3rem !important;
+	text-align: center;
+	
+}
+
+
+.App-espacio {
+	height: 24rem;
+}
+
+.Cocina:hover, .Oficinas:hover, .Residencial:hover {
+	filter: grayscale(0);
+}
+.App-main {
+	margin: auto;
+}
+
+.App-logoHome {
+	margin: 2rem auto 1rem;
+}
+
+.App-logoContacto {
+	background-image: url('../img/logo.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 9rem 2rem 3rem;
+}
+.App-logo {
+	background-image: url('../img/logo.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	margin: 5rem 0 .5rem;
+	padding: 15rem 2rem 3rem;
+}
+
+.App-back {
+	margin: 3rem 0 0 6rem;
+}
+
+.App-textContac {
+	color: #FFF;
+	margin: 3rem auto;
+	padding: 1rem;
+	text-align: left;
+	font-weight: lighter;
+}
+
+
+.App-textContac p {
+	font-size: 1.1rem;
+	line-height: 1.8rem;
+	text-align:justify;
+	margin-bottom: 1rem;
+}
+
+.banner {
+	margin-left: 1rem;
+	font-size: 1.5rem;
+	line-height: 3.5rem;
+	margin-bottom: .5rem;
+	font-weight: normal;
+}
+
+ul{
+	margin-left: 3rem;
+	line-height: 2rem;
+	font-size: 1.2rem;
+	list-style-image: url(../img/icon.png);
+	font-weight: lighter;
+}
+
+.App-miniaturas {
+    height: 12rem;
+}
+
+.App-boton {
+	font-family: 'bebas_neueregular';
+	z-index: 1;
+	display: block;
+	margin: auto;
+	padding: .5rem;
+	font-size: 1.5rem;
+}
+.App-botonForm {
+	font-family: 'bebas_neueregular';
+	z-index: 1;
+	display: block;
+	margin: auto;
+	padding: .5rem;
+	font-size: 1.5rem;
+}
+.App-port {
+	color: #FFF;
+	font-size: 2.3rem;
+}
+footer {
+	background-color: #222;
+	padding: 2rem;
+	color: #FFF;
+}
+
+footer a {
+	text-decoration: none;
+}
+
+footer i, footer p {
+	padding: .5rem;
+	margin-left: 2rem;
+}
+.App-portafolio {
+	padding: 2rem;
+}
+.App-form p{
+	font-family: sans-serif;
+	margin: 1rem 0;
+}
+
+
+.w3-sidebar {
+	background-color: #222;
+}
+
+.App-img {
+	margin: auto; 
+}
+
+.message { font-size: 2rem; }
+
+.hidden { display: none; }
+
+@media screen and (min-width: 48em){ 
+
+	.App-back {
+	position: relative;
+	min-width: 150%;
+	max-height: 150%;
+	}
+
+}
+
+@media screen and (min-width: 64em){ 
+
+	.App-logoHome {
+	margin: 2rem 0 1rem 7rem;
+	}
+	.App-boton {
+	margin: 0 0 1rem 7rem;
+	}
+	.App-back {
+	margin: -9rem 0 0 23rem;
+	position: relative;
+	min-width: 150%;
+	max-height: 150%;
+	}
+
+}
+
